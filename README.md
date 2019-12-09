@@ -1,3 +1,4 @@
 # mySkipList
-c++ / c#
-helloooo
+c++
+command line style
+(pretty stupid to be honest)
