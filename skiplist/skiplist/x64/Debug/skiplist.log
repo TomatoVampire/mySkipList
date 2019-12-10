@@ -1,1 +1,5 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(67,5): error MSB8020: The build tools for v142 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, please install v142 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  Main.cpp
+  SkipList.cpp
+  Generating Code...
+E:\c\mySkipList\skiplist\skiplist\SkipList.cpp(31,18): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  skiplist.vcxproj -> E:\c\mySkipList\skiplist\x64\Debug\skiplist.exe
