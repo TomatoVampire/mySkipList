@@ -1,9 +1,9 @@
 #pragma once
-//#define MAXLEVEL 8
+#define MAXLEVEL 8
 struct Node
 {
 	int data;
-	Node* forward[SkipList::MAXLEVEL];
+	Node* forward[MAXLEVEL];
 	int level;
 };
 
@@ -14,7 +14,7 @@ private:
 	Node* Head;
 	int randomSeed;
 public:
-	static const int MAXLEVEL = 8;
+	//static const int MAXLEVEL = 8;
 	SkipList();
 	~SkipList();
 	int randL();
